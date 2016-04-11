@@ -14,10 +14,10 @@
 		<folder>css</folder>
 	</files>
 	<positions>
-		<position>navbar</position>
-		<position>left</position>
-		<position>right</position>
-		<position>top</position>
+		<position>logo</position>
+		<position>button-1</position>
+		<position>button-2</position>
+		<position>button-3</position>
 		<position>footer</position>
 	</positions>
 </extension>
