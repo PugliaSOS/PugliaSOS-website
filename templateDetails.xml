@@ -1,25 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<extension version="3.2" type="template">
-  <name> PugliaSOS_template </name>
-  <creationDate> 2016-04-11 </creationDate>
-  <author> PugliaSOS </author>
-  <copyright> 2016 Puglia Software Open Source </copyright>
-  <license> GNU/GPL </license>
-  <version> 1.0 </version>
-  <description> Template for PugliaSOS website </description>
-  <files>
-    <filename> index.php </filename>
-    <filename> templateDetails.xml </filename>
-    <folder> images </folder>
-    <folder> css </folder>
-    <folder> html </folder>
-    <folder> js </folder>
-  </files>
-  <positions>
-	<position> breadcrumb </position>
-	<position> left </position>
-	<position> right </position>
-	<position> top </position>
-	<position> footer </position>
-  </positions>
+<extension version="2.5" type="template">
+	<name>PugliaSOS_template</name>
+	<creationDate>2016-04-11</creationDate>
+	<author>CodingLab</author>
+	<copyright>PugliaSOS 2016</copyright>
+	<license>GNU/GPL</license>
+	<version>1.0.2</version>
+	<description>PugliaSOS template</description>
+	<files>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+		<folder>images</folder>
+		<folder>css</folder>
+	</files>
+	<positions>
+		<position>navbar</position>
+		<position>left</position>
+		<position>right</position>
+		<position>top</position>
+		<position>footer</position>
+	</positions>
 </extension>
