@@ -9,9 +9,15 @@
   <div class="container">
     <div class="navbar">
       <ul>
-        <li><jdoc:include type="modules" name="logo"/></li>
-        <li><button><jdoc:include type="modules" name="button-1"/></button></li>
+        <li style="float:left"><jdoc:include type="modules" name="logo"/></li>
+        <li><button class="Rectangle-5"><jdoc:include type="modules" name="button-1"/></button></li>
+        <li><button><jdoc:include type="modules" name="button-2"/></button></li>
+        <li><button><jdoc:include type="modules" name="button-3"/></button></li>
+        <li><button><jdoc:include type="modules" name="button-4"/></button></li>
       </ul>
+    </div>
+    <div>
+       <button align="center" class="Arrow"><jdoc:include type="modules" name="arrow"/></button>
     </div>
   </div>
 </body>

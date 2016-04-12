@@ -18,6 +18,8 @@
 		<position>button-1</position>
 		<position>button-2</position>
 		<position>button-3</position>
+		<position>button-4</position>
+		<position>arrow</position>
 		<position>footer</position>
 	</positions>
 </extension>
