@@ -10,6 +10,9 @@ li a {
     display: block;
     width: 60px;
 }
+body{
+	background-image:url("http://www.intrawallpaper.com/static/images/Silver-Blur-Background-Wallpaper.jpg");
+}
 
 .Container{
 	position:relative;
@@ -20,6 +23,10 @@ li a {
 	border-radius: 45px;
 	background-color: #ff6318;
 	border: solid 1px #979797;
+    font-family: MavenProBlack;
+    font-size: 18px;
+    line-height: 2.3;
+    color: #ffffff;
 }
 .Bitmap{
 	width: 1440px;

@@ -7,6 +7,7 @@
 </head>
 <body>
   <div class="container">
+   <div class="section-1">
     <div class="navbar">
       <ul>
         <li style="float:left"><jdoc:include type="modules" name="logo"/></li>
@@ -17,8 +18,9 @@
       </ul>
     </div>
     <div>
-       <button align="center" class="Arrow"><jdoc:include type="modules" name="arrow"/></button>
+       <button class="Arrow"><jdoc:include type="modules" name="arrow"/></button>
     </div>
+   </div>
   </div>
 </body>
 </html>
