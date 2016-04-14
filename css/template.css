@@ -1,60 +1,72 @@
-ul{
+body {
+  margin: 0;
+}
+
+ul {
 	list-style-type:none;
     margin: 0;
     padding: 0;
 }
+
 li {
     float: right;
 }
+
 li a {
     display: block;
     width: 60px;
 }
-body{
-	background-image: url("../images/Background.jpg");
-}
-button{
+
+button {
 	background-color: transparent;
-	width: 90px;
-    font-family: MavenProBlack;
+	height: 41px;
+    @font-family: MavenProBlack;
     border-color: transparent;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 2.3;
-	margin: 0px 0px 0px 50px;
     color: #ffffff;
-	outline: none;
+	
 }
 
-.Logo{
+@font-face {
+    font-family: 'MavenProBlack';
+    src: url('/mavenpro/src/MavenProBlack.otf');
+    src: local('MavenProBlack'), url('MavenProBlack.ttf') format('truetype');
+    }
+
+.Logo {
 	width: 156px;
-    font-family: MavenProBlack;
-    font-size: 20px;
     line-height: 2.3;
     color: #ffffff;
 }
-.Container{
+
+.Container {
 	position:relative;
 }
+
 .Rectangle-5 {
 	width: 156px;
+	height: 44px;
 	border-radius: 45px;
 	background-color: #ff6318;
 	border: solid 1px #979797;
-    font-family: MavenProBlack;
-    font-size: 15px;
+    @font-family: MavenProBlack;
+    font-size: 18px;
     line-height: 2.3;
     color: #ffffff;
 }
-.Bitmap{
+
+.Bitmap {
 	width: 1440px;
 	height: 900px;
 }
-.Arrow{
+
+.Arrow {
 	position: absolute;
-	bottom: 0;
-	left: 45%;
-	width:70px;
-	height: 50px;
+	bottom: 0;	
+	left: 49%;
+	width:58px;
+	height: 56px;
 	background-color: transparent;
     margin: auto;
 	}
