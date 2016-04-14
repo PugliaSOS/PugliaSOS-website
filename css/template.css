@@ -20,6 +20,7 @@ button{
     border-color: transparent;
     font-size: 16px;
     line-height: 2.3;
+	margin: 0px 0px 0px -20px;
     color: #ffffff;
 }
 
@@ -51,6 +52,8 @@ button{
 	position: absolute;
 	bottom: 0;
 	left: 45%;
+	width:70px;
+	height: 50px;
+	background-color: transparent;
     margin: auto;
-
 	}
