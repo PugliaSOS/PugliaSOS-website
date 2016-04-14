@@ -11,17 +11,18 @@ li a {
     width: 60px;
 }
 body{
-	background-image:url("http://www.intrawallpaper.com/static/images/Silver-Blur-Background-Wallpaper.jpg");
+	background-image: url("../images/Background.jpg");
 }
 button{
 	background-color: transparent;
-	width: 156px;
+	width: 90px;
     font-family: MavenProBlack;
     border-color: transparent;
     font-size: 16px;
     line-height: 2.3;
-	margin: 0px 0px 0px -20px;
+	margin: 0px 0px 0px 50px;
     color: #ffffff;
+	outline: none;
 }
 
 .Logo{
