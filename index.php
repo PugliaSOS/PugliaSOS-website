@@ -10,7 +10,7 @@
    <div class="section-1">
     <div class="navbar">
       <ul>
-        <li style="float:left"><jdoc:include type="modules" name="logo"/></li>
+        <li style="float:left" class="Logo"><jdoc:include type="modules" name="logo"/></li>
         <li><button class="Rectangle-5"><jdoc:include type="modules" name="button-1"/></button></li>
         <li><button><jdoc:include type="modules" name="button-2"/></button></li>
         <li><button><jdoc:include type="modules" name="button-3"/></button></li>

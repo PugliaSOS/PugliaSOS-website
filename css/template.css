@@ -13,18 +13,33 @@ li a {
 body{
 	background-image:url("http://www.intrawallpaper.com/static/images/Silver-Blur-Background-Wallpaper.jpg");
 }
+button{
+	background-color: transparent;
+	width: 156px;
+    font-family: MavenProBlack;
+    border-color: transparent;
+    font-size: 16px;
+    line-height: 2.3;
+    color: #ffffff;
+}
 
+.Logo{
+	width: 156px;
+    font-family: MavenProBlack;
+    font-size: 20px;
+    line-height: 2.3;
+    color: #ffffff;
+}
 .Container{
 	position:relative;
 }
 .Rectangle-5 {
 	width: 156px;
-	height: 44px;
 	border-radius: 45px;
 	background-color: #ff6318;
 	border: solid 1px #979797;
     font-family: MavenProBlack;
-    font-size: 18px;
+    font-size: 15px;
     line-height: 2.3;
     color: #ffffff;
 }
