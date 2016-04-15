@@ -1,5 +1,20 @@
+* {
+  @font-family: MavenProBlack;
+}
+
 body {
   margin: 0;
+}
+
+.navbar {
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+.section-1-img {
+    width: 100%;
+    height: 100vh;
 }
 
 ul {
@@ -9,64 +24,60 @@ ul {
 }
 
 li {
+    display: inline;
     float: right;
+    margin-top: 11.5px;
 }
 
-li a {
-    display: block;
-    width: 60px;
-}
 
 button {
 	background-color: transparent;
 	height: 41px;
-    @font-family: MavenProBlack;
     border-color: transparent;
     font-size: 18px;
     line-height: 2.3;
     color: #ffffff;
-	
+    outline:none;
+    margin-right: 45px;
+	padding: 0;
+    border: 0;
+    font-weight: bold;
 }
 
-@font-face {
-    font-family: 'MavenProBlack';
-    src: url('/mavenpro/src/MavenProBlack.otf');
-    src: local('MavenProBlack'), url('MavenProBlack.ttf') format('truetype');
-    }
-
-.Logo {
-	width: 156px;
+.logo {
+	width: 250px;
+    height: 49.7px;
+    margin-left: 6px;
+    margin-top: 13px;
     line-height: 2.3;
     color: #ffffff;
+    float:left;
+    overflow: hidden;
+}
+.logo img {
+    width: 50%;
+
 }
 
-.Container {
-	position:relative;
-}
-
-.Rectangle-5 {
+.rectangle-5 {
 	width: 156px;
 	height: 44px;
 	border-radius: 45px;
 	background-color: #ff6318;
 	border: solid 1px #979797;
-    @font-family: MavenProBlack;
     font-size: 18px;
     line-height: 2.3;
     color: #ffffff;
+    margin-right: 42px;
 }
 
-.Bitmap {
-	width: 1440px;
-	height: 900px;
-}
-
-.Arrow {
-	position: absolute;
-	bottom: 0;	
-	left: 49%;
+.arrow {	
 	width:58px;
 	height: 56px;
 	background-color: transparent;
-    margin: auto;
-	}
+}
+
+.arrow-position {
+    margin-top: -15vh;
+    margin-left: 47vw;
+}
