@@ -75,9 +75,10 @@ button {
 	width:58px;
 	height: 56px;
 	background-color: transparent;
+  outline: none;
 }
 
 .arrow-position {
-    margin-top: -15vh;
-    margin-left: 47vw;
+  margin-top: -15vh;
+  text-align: center;
 }
