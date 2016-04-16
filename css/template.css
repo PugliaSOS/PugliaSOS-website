@@ -72,13 +72,13 @@ button {
 }
 
 .arrow {	
-	width:58px;
-	height: 56px;
-	background-color: transparent;
-  outline: none;
+    outline: none;
+    color: white;
+	font-size: 42px;
 }
 
 .arrow-position {
   margin-top: -15vh;
   text-align: center;
 }
+
